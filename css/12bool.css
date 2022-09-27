@@ -50,3 +50,8 @@
     flex-basis: calc(100% / 12 * 5);
     max-width: calc(100% / 12 * 5);
 }
+
+.col-sm-12 {
+    flex-basis: calc(100% / 12 * 12);
+    max-width: calc(100% / 12 * 12);
+}
