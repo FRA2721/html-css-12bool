@@ -1,0 +1,41 @@
+/* reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* container */
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+/* container_fluid */
+.container-fluid {
+    width: 100%;
+}
+
+/* row */
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* colums_formatting */
+[class*="col-"] {
+    flex: 0 0 auto;
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.col-sm-1 {
+    flex-basis: calc(100% / 12 * 1);
+    max-width: calc(100% / 12 * 1);
+}
+
