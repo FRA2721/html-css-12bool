@@ -7,7 +7,7 @@
 
 /* container */
 .container {
-    max-width: 1150px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -44,7 +44,15 @@
     max-width: calc(100% / 12 * 2);
 }
 
+.col-sm-3 {
+    flex-basis: calc(100% / 12 * 3);
+    max-width: calc(100% / 12 * 3);
+}
 
+.col-sm-4 {
+    flex-basis: calc(100% / 12 * 4);
+    max-width: calc(100% / 12 * 4);
+}
 
 .col-sm-5 {
     flex-basis: calc(100% / 12 * 5);
@@ -85,3 +93,4 @@
     flex-basis: calc(100% / 12 * 12);
     max-width: calc(100% / 12 * 12);
 }
+
