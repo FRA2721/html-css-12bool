@@ -39,3 +39,14 @@
     max-width: calc(100% / 12 * 1);
 }
 
+.col-sm-2 {
+    flex-basis: calc(100% / 12 * 2);
+    max-width: calc(100% / 12 * 2);
+}
+
+
+
+.col-sm-5 {
+    flex-basis: calc(100% / 12 * 5);
+    max-width: calc(100% / 12 * 5);
+}
