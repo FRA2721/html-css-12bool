@@ -1,4 +1,4 @@
-/* box */
+/* box_section */
 .box {
     height: 60px;
     background-color: #006cfa;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-/* box_lg */
+/* box_lg_section */
 .box-lg{
     background-color: #006cfa;
     border: 1px solid white;
@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-/* box_green */
+/* box_green_section*/
 .box-green{
     height: 60px;
     background-color: #00e165;
